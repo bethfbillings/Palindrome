@@ -7,7 +7,7 @@ namespace Palindrome.Client
         static void Main(string[] args)
         {
             UserInput input = new UserInput();
-            input.getUserInput(); 
+            input.Check(); 
         }
     }
 }
