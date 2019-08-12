@@ -31,7 +31,7 @@ namespace Palindrome.Testing
           UserInput input = new UserInput;
           input.setUserInput("live not on evil");
           bool actual = input.IsPalindrome(); 
-          bool expected = false; 
+          bool expected = true; 
           Assert.Equal(expected, actual);
         }
     }
