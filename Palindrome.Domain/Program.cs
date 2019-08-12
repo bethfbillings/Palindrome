@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace Palindrome.Domain
+namespace Palindrome.Client
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UserInput input = new UserInput();
+            input.Check(); 
         }
     }
 }
