@@ -6,7 +6,8 @@ namespace Palindrome.Domain
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UserInput userInput = new UserInput();
+            userInput.Check(); 
         }
     }
 }
